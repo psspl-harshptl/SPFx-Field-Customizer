@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.23.0",
+    "libraryName": "sp-fx-field-customizer",
+    "libraryId": "e9811c9c-e461-4fe8-bb8f-2a20d2522514",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-fx-field-customizer",
+    "solutionShortDescription": "sp-fx-field-customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}

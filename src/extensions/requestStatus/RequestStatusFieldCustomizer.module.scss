@@ -1,0 +1,29 @@
+.requestStatus {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.pending {
+  color: #805b00;
+  background-color: #fff1cc;
+}
+
+.approved {
+  color: #176b36;
+  background-color: #ddf5e4;
+}
+
+.rejected {
+  color: #a32121;
+  background-color: #fce4e4;
+}
+
+.unknown {
+  color: #424242;
+  background-color: #eeeeee;
+}

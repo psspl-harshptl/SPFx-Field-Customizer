@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "request-status-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/requestStatus/RequestStatusFieldCustomizer.js",
+          "manifest": "./src/extensions/requestStatus/RequestStatusFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RequestStatusFieldCustomizerStrings": "lib/extensions/requestStatus/loc/{locale}.js"
+  }
+}
